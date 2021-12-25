@@ -4,6 +4,7 @@ import { Itemtitle, Itembody } from '../style';
 export const Item = ({ title, body }) => {
     const [show, setShow] = useState(false)
     console.log(Itemtitle)
+
     const handleShow = () => {
         setShow(true)
     }
